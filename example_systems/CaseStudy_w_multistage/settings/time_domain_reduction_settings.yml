@@ -1,0 +1,54 @@
+# ----------------------------------------------------------------------------
+# TIME DOMAIN REDUCTION SETTINGS FOR GENX
+# ----------------------------------------------------------------------------
+
+# Min/Max number of representative periods (clusters) across the year(s).
+# GenX will pick a final cluster count between these two.
+MinPeriods: 4
+MaxPeriods: 6
+
+# The length (in hours) of each representative period. For example, 168 for a week.
+TimestepsPerRepPeriod: 168
+
+# When set to 1, GenX clusters successively from MinPeriods up to MaxPeriods,
+# stopping early if it meets the Threshold criterion. 
+# Set to 0 if you just want to fix a single cluster count (Min=Max).
+IterativelyAddPeriods: 1
+
+# The method for clustering. Common options: "kmeans" or "kmedoids".
+ClusterMethod: "kmeans"
+
+# Scaling method for normalizing input data prior to clustering. 
+# "S" is the most common (standardize each column).
+ScalingMethod: "S"
+
+# For each cluster attempt, how many times the algorithm is repeated from random seeds
+# to find a potentially better global optimum for the partitioning?
+nReps: 100
+
+# If "UseExtremePeriods: 1," you can optionally specify one or more extremes.
+# Typically these are the highest/lowest demand or wind/solar resource periods.
+# The snippet below shows an example that ensures peak demand and wind-lull weeks are included.
+UseExtremePeriods: 1
+ExtremePeriods:
+  Demand:
+    System: 1        # 1 means "capture the top demand week(s)"
+  Wind:
+    System: 1        # 1 means "capture the worst (lowest wind) week(s)"
+
+# Weight the demand signals more or less in the clustering objective.
+# If set to 1, it means default weighting. 
+DemandWeight: 1
+
+# Whether to cluster across all multi-stage input data simultaneously (1),
+# or do TDR separately for each stage (0).
+MultiStageConcatenate: 1
+
+# If set to 1, TDR also clusters multiple fuel price time series. 
+# e.g., if your fuels have piecewise or monthly variation.
+ClusterFuelPrices: 1
+
+# If GenX sees that the difference in "distance" between consecutive cluster counts 
+# is below this threshold, it stops iterating. 
+# Typically 0.05 means "stop if going from (k) to (k+1) clusters yields <5% improvement in cluster fit."
+Threshold: 0.05
