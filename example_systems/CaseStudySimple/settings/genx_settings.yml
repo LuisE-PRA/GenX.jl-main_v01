@@ -1,0 +1,10 @@
+NetworkExpansion: 0            # Do not allow transmission line builds (use existing limits only)
+EnergyShareRequirement: 0      # No renewable energy share constraint
+CapacityReserveMargin: 0       # No planning reserve margin constraint
+CO2Cap: 0                      # No CO2 emissions cap
+MinCapReq: 0                   # No minimum capacity (technology carve-out) constraints
+MaxCapReq: 0                   # No maximum capacity constraints
+UCommit: 0                     # No unit commitment (thermal generators are linear dispatch)
+TimeDomainReduction: 0         # Use provided clustered time-series (no further clustering)
+MultiStage: 0                  # Single-stage optimization
+ParameterScale: 0              # Use MW (do not scale parameters to GW)

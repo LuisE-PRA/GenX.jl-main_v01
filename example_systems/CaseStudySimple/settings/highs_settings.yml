@@ -1,0 +1,8 @@
+# HiGHS Solver Parameters (common settings)
+Feasib_Tol: 1.0e-07        # Primal feasibility tolerance 
+Optimal_Tol: 1.0e-05       # Dual feasibility tolerance 
+TimeLimit: 1.0e23          # Effectively no time limit 
+Pre_Solve: "on"            # Enable presolve
+Method: "simplex"          # Solve using simplex method (deterministic)
+# HiGHS-specific settings
+run_crossover: "off"       # Don't run crossover after interior point (not needed for simplex)

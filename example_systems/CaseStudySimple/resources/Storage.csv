@@ -1,0 +1,14 @@
+﻿Resource,Zone,Model,New_Build,Can_Retire,Existing_Cap_MW,Existing_Cap_MWh,Max_Cap_MW,Max_Cap_MWh,Min_Cap_MW,Min_Cap_MWh,Inv_Cost_per_MWyr,Inv_Cost_per_MWhyr,Fixed_OM_Cost_per_MWyr,Fixed_OM_Cost_per_MWhyr,Fixed_OM_Cost_Charge_per_MWyr,Var_OM_Cost_per_MWh,Var_OM_Cost_per_MWh_In,Self_disch,Eff_Up,Eff_Down,Min_Duration,Max_Duration,Resource_Type,region,cluster
+Boston_battery,1,1,1,0,0,0,-1,-1,0,0,19584,22494,4895,5622,5622,0.15,0.15,0,0.92,0.92,1,10,battery,MA,1
+ConnCentral_battery,2,1,1,0,0,0,-1,-1,0,0,19584,22494,4895,5622,5622,0.15,0.15,0,0.92,0.92,1,10,battery,CT,1
+ConnNorwalk_battery,3,1,1,0,0,0,-1,-1,0,0,19584,22494,4895,5622,5622,0.15,0.15,0,0.92,0.92,1,10,battery,CT,1
+ConnSW_battery,4,1,1,0,0,0,-1,-1,0,0,19584,22494,4895,5622,5622,0.15,0.15,0,0.92,0.92,1,10,battery,CT,1
+MaineBHE_battery,5,1,1,0,0,0,-1,-1,0,0,19584,22494,4895,5622,5622,0.15,0.15,0,0.92,0.92,1,10,battery,ME,1
+MaineCentral_battery,6,1,1,0,0,0,-1,-1,0,0,19584,22494,4895,5622,5622,0.15,0.15,0,0.92,0.92,1,10,battery,ME,1
+MaineSouth_battery,7,1,1,0,0,0,-1,-1,0,0,19584,22494,4895,5622,5622,0.15,0.15,0,0.92,0.92,1,10,battery,ME,1
+MassCentral_battery,8,1,1,0,0,0,-1,-1,0,0,19584,22494,4895,5622,5622,0.15,0.15,0,0.92,0.92,1,10,battery,MA,1
+MassSE_battery,9,1,1,0,0,0,-1,-1,0,0,19584,22494,4895,5622,5622,0.15,0.15,0,0.92,0.92,1,10,battery,MA,1
+MassWest_battery,10,1,1,0,0,0,-1,-1,0,0,19584,22494,4895,5622,5622,0.15,0.15,0,0.92,0.92,1,10,battery,MA,1
+NewHampshire_battery,11,1,1,0,0,0,-1,-1,0,0,19584,22494,4895,5622,5622,0.15,0.15,0,0.92,0.92,1,10,battery,NH,1
+RhodeIsland_battery,12,1,1,0,0,0,-1,-1,0,0,19584,22494,4895,5622,5622,0.15,0.15,0,0.92,0.92,1,10,battery,RI,1
+Vermont_battery,13,1,1,0,0,0,-1,-1,0,0,19584,22494,4895,5622,5622,0.15,0.15,0,0.92,0.92,1,10,battery,VT,1

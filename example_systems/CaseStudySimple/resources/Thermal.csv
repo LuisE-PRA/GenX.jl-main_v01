@@ -1,0 +1,14 @@
+Resource,Zone,Model,New_Build,Can_Retire,Existing_Cap_MW,Max_Cap_MW,Min_Cap_MW,Inv_Cost_per_MWyr,Fixed_OM_Cost_per_MWyr,Var_OM_Cost_per_MWh,Heat_Rate_MMBTU_per_MWh,Fuel,Cap_Size,Start_Cost_per_MW,Start_Fuel_MMBTU_per_MW,Up_Time,Down_Time,Ramp_Up_Percentage,Ramp_Dn_Percentage,Min_Power,Reg_Max,Rsv_Max,Reg_Cost,Rsv_Cost,region,cluster
+Boston_natural_gas_combined_cycle,1,1,1,0,0,-1,0,65400,10287,3.55,7.43,natural_gas,250,91,2,6,6,0.64,0.64,0.468,0,0,0,0,MA,1
+ConnCentral_natural_gas_combined_cycle,2,1,1,0,0,-1,0,65400,10287,3.55,7.43,natural_gas,250,91,2,6,6,0.64,0.64,0.468,0,0,0,0,CT,1
+ConnNorwalk_natural_gas_combined_cycle,3,1,1,0,0,-1,0,65400,10287,3.55,7.43,natural_gas,250,91,2,6,6,0.64,0.64,0.468,0,0,0,0,CT,1
+ConnSW_natural_gas_combined_cycle,4,1,1,0,0,-1,0,65400,10287,3.55,7.43,natural_gas,250,91,2,6,6,0.64,0.64,0.468,0,0,0,0,CT,1
+MaineBHE_natural_gas_combined_cycle,5,1,1,0,0,-1,0,65400,10287,3.55,7.43,natural_gas,250,91,2,6,6,0.64,0.64,0.468,0,0,0,0,ME,1
+MaineCentral_natural_gas_combined_cycle,6,1,1,0,0,-1,0,65400,10287,3.55,7.43,natural_gas,250,91,2,6,6,0.64,0.64,0.468,0,0,0,0,ME,1
+MaineSouth_natural_gas_combined_cycle,7,1,1,0,0,-1,0,65400,10287,3.55,7.43,natural_gas,250,91,2,6,6,0.64,0.64,0.468,0,0,0,0,ME,1
+MassCentral_natural_gas_combined_cycle,8,1,1,0,0,-1,0,65400,10287,3.55,7.43,natural_gas,250,91,2,6,6,0.64,0.64,0.468,0,0,0,0,MA,1
+MassSE_natural_gas_combined_cycle,9,1,1,0,0,-1,0,65400,10287,3.55,7.43,natural_gas,250,91,2,6,6,0.64,0.64,0.468,0,0,0,0,MA,1
+MassWest_natural_gas_combined_cycle,10,1,1,0,0,-1,0,65400,10287,3.55,7.43,natural_gas,250,91,2,6,6,0.64,0.64,0.468,0,0,0,0,MA,1
+NewHampshire_natural_gas_combined_cycle,11,1,1,0,0,-1,0,65400,10287,3.55,7.43,natural_gas,250,91,2,6,6,0.64,0.64,0.468,0,0,0,0,NH,1
+RhodeIsland_natural_gas_combined_cycle,12,1,1,0,0,-1,0,65400,10287,3.55,7.43,natural_gas,250,91,2,6,6,0.64,0.64,0.468,0,0,0,0,RI,1
+Vermont_natural_gas_combined_cycle,13,1,1,0,0,-1,0,65400,10287,3.55,7.43,natural_gas,250,91,2,6,6,0.64,0.64,0.468,0,0,0,0,VT,1
